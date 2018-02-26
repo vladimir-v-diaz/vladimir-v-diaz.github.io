@@ -606,18 +606,18 @@ table, td, img {
   border: none; }
 
 body {
-  background: #5C2DF4; }
+  background: #295862; }
 
 .inner {
   max-width: 800px; }
 
 #header_wrap {
-  background: #5C2DF4;
-  background: -moz-linear-gradient(top, #4020A9, #5C2DF4, #5C2DF4);
-  background: -webkit-linear-gradient(top, #4020A9, #5C2DF4, #5C2DF4);
-  background: -ms-linear-gradient(top, #4020A9, #5C2DF4, #5C2DF4);
-  background: -o-linear-gradient(top, #4020A9, #5C2DF4, #5C2DF4);
-  background: linear-gradient(top, #4020A9, #5C2DF4, #5C2DF4); }
+  background: #295862;
+  background: -moz-linear-gradient(top, #1e1b26, #295862, #295862);
+  background: -webkit-linear-gradient(top, #1e1b26, #295862, #295862);
+  background: -ms-linear-gradient(top, #1e1b26, #295862, #295862);
+  background: -o-linear-gradient(top, #1e1b26, #295862, #295862);
+  background: linear-gradient(top, #1e1b26, #295862, #295862); }
   #header_wrap .inner {
     padding: 20px 10px 0px 10px; }
     #header_wrap .inner a:hover, #header_wrap .inner a:focus {
@@ -643,7 +643,7 @@ body {
     padding: 20px 20px; }
 
 #footer_wrap {
-  background: #5C2DF4;
+  background: #295862;
   font-size: 0.8em; }
 
 /* Special styles for different pages */
