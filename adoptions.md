@@ -1,13 +1,12 @@
 ---
 layout: default
-css_id: integrations
+css_id: adoptions
 ---
 
-### Integrations
+### Adoptions
 
 (Many of the images below link to articles that cover the TUF adoption.)
 
-### Adoptions
 <a href="https://blog.docker.com/2015/08/content-trust-docker-1-8/" rel="docker
 logo"><img src="/assets/images/docker_logo.png" width="200"></a>
 

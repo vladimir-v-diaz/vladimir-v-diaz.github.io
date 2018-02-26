@@ -32,8 +32,8 @@
 
 - text: Community
   sub:
-    - text: Integrations
-      url: /integrations.html
+    - text: Adoptions
+      url: /adoptions.html
 
     - text: Reporting issues
       url: /reporting.html
