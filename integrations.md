@@ -17,8 +17,10 @@ logo"><img src="/assets/images/docker_logo.png" width="200"></a>
 logo"><img src="/assets/images/flynn_logo.png" width="200"></a>
 (Flynn.io)
 
-
-* [Advanced Telematic Systems is working on a Rust implementation of TUF to secure over-the-air software updates in automobiles](https://crates.io/crates/tuf)
+<a
+href="https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html"
+rel="ATS logo"><img src="/assets/images/ats_logo.png" width="200"></a>
+(Advanced Telematic Systems)
 
 <a
 href="https://leap.se/en/2014/darkest-night"
@@ -26,6 +28,15 @@ rel="LEAP logo"><img src="/assets/images/leap_logo.png"
 width="200"></a>
 (LEAP Encryption Access Project)
 
+<a
+href="https://github.com/theupdateframework/notary"
+rel="Notary logo"><img src="/assets/images/notary_logo.png"
+width="200"></a>
+(Notary)
+
+
+(Cloudfare)
+(DigitalOcean)
 
 ### Ongoing
 
@@ -53,3 +64,5 @@ logo"><img src="/assets/images/opam_logo.png" width="200"></a> (OCaml's OPAM)
 
 ### Others
 [Docker registry bindings](https://github.com/davedoesdev/dtuf)
+
+[A Rust implementation of TUF](https://crates.io/crates/tuf)
