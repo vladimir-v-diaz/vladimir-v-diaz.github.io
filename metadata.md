@@ -22,8 +22,6 @@ Required:
 
 Optional:
 
-* Mirrors (unimplemented)
-
 There may also be any number of delegated target roles.
 
 ## Root Metadata (root.json)
@@ -85,12 +83,3 @@ There are two primary reasons why the timestamp.json file doesn't contain all of
 * As the Timestamp role's key is an online key and thus at high risk, separate keys should be used for signing the snapshot.json metadata file so that the Snapshot role's keys can be kept offline and thus more secure.
 
 See [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/timestamp.json) of Timestamp metadata.
-
-## Mirrors Metadata (mirrors.json)
-
-Optionally signed by: Mirrors role.
-
-The mirrors.json file provides an optional way to provide mirror list updates to TUF clients. Mirror lists can alternatively be provided directly by the software update system and obtained in any way the system sees fit, including being hard coded if that is what an applications wants to do.
-
-No example available. At the time of writing, this hasn't been implemented in
-TUF. Currently mirrors are specified by the client code.
