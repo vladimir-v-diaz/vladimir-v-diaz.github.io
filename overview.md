@@ -5,8 +5,6 @@ css_id: overview
 
 ## Overview
 
-### What is a software update system? ###
-
 Generally, a software update system is an application (or part of an
 application) running on a client system that obtains and installs software.
 These systems typically update the applications installed on client systems to
