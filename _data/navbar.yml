@@ -45,9 +45,6 @@
       url: https://github.com/theupdateframework/tuf
       external: true
 
-- text: Press
-  url: /press.html
-
 - text: News
   url: /news.html
 
