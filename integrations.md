@@ -7,7 +7,7 @@ css_id: integrations
 
 (Many of the images below link to articles that cover the TUF adoption.)
 
-### Production
+### Adoptions
 <a href="https://blog.docker.com/2015/08/content-trust-docker-1-8/" rel="docker
 logo"><img src="/assets/images/docker_logo.png" width="200"></a>
 (Docker Content Trust)
@@ -34,9 +34,23 @@ rel="Notary logo"><img src="/assets/images/notary_logo.png"
 width="200"></a>
 (Notary)
 
+<a
+href="https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/"
+rel="Cloudfare logo"><img src="/assets/images/cloudfare_logo.png"
+width="200"></a>
+(Cloudfare's PAL)
 
-(Cloudfare)
+<a
+href="https://www.digitalocean.com/"
+rel="DigitalOcean logo"><img src="/assets/images/digitalocean_logo.png"
+width="200"></a>
 (DigitalOcean)
+
+<a
+href="https://github.com/kolide/updater"
+rel="Kolide logo"><img src="/assets/images/kolide_logo.png"
+width="200"></a>
+(Kolide)
 
 ### Ongoing
 
@@ -65,4 +79,4 @@ logo"><img src="/assets/images/opam_logo.png" width="200"></a> (OCaml's OPAM)
 ### Others
 [Docker registry bindings](https://github.com/davedoesdev/dtuf)
 
-[A Rust implementation of TUF](https://crates.io/crates/tuf)
+[A Rust implementation](https://crates.io/crates/tuf)
