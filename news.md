@@ -5,6 +5,8 @@ css_id: news
 
 ### News
 
+(The [press](/press.html) page contains a full listing of news coverage.)
+
 **July 5, 2017**
 
 >

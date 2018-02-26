@@ -5,6 +5,8 @@ css_id: press
 
 ### Press
 
+Note: Lois, this page is not up to date.  Can you please add missing entries?
+
 * [Justin Cappos presented TUF (and ongoing work in securing software updates in automobiles and the software supply chain) at Docker's Distributed Systems Summit 2016 ](https://www.youtube.com/watch?v=Aryr0O6H_2U&list=PLkA60AVN3hh8oPas3cq2VA9xB7WazcIgs&index=9)
 
 * [Secure Software Distribution in an Adversarial World - Duo Tech Talk](https://www.youtube.com/watch?v=OW8NPkSq-3k)
