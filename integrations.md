@@ -10,47 +10,38 @@ css_id: integrations
 ### Adoptions
 <a href="https://blog.docker.com/2015/08/content-trust-docker-1-8/" rel="docker
 logo"><img src="/assets/images/docker_logo.png" width="200"></a>
-(Docker Content Trust)
-
 
 <a href="https://flynn.io/docs/development#the-update-framework-%28tuf%29" rel="Flynn
 logo"><img src="/assets/images/flynn_logo.png" width="200"></a>
-(Flynn.io)
 
 <a
 href="https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html"
 rel="ATS logo"><img src="/assets/images/ats_logo.png" width="200"></a>
-(Advanced Telematic Systems)
 
 <a
 href="https://leap.se/en/2014/darkest-night"
 rel="LEAP logo"><img src="/assets/images/leap_logo.png"
 width="200"></a>
-(LEAP Encryption Access Project)
 
 <a
 href="https://github.com/theupdateframework/notary"
 rel="Notary logo"><img src="/assets/images/notary_logo.png"
 width="200"></a>
-(Notary)
 
 <a
 href="https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/"
 rel="Cloudfare logo"><img src="/assets/images/cloudfare_logo.png"
 width="200"></a>
-(Cloudfare's PAL)
 
 <a
 href="https://www.digitalocean.com/"
 rel="DigitalOcean logo"><img src="/assets/images/digitalocean_logo.png"
 width="200"></a>
-(DigitalOcean)
 
 <a
 href="https://github.com/kolide/updater"
 rel="Kolide logo"><img src="/assets/images/kolide_logo.png"
 width="200"></a>
-(Kolide)
 
 ### Ongoing
 
@@ -58,23 +49,20 @@ width="200"></a>
 href="https://github.com/pypa/interoperability-peps/blob/master/pep-0458-tuf-online-keys.rst"
 rel="PyPI logo"><img src="/assets/images/pypi_logo.png"
 width="200"></a>
-(Python Package Index)
 
 <a
 href="https://corner.squareup.com/2013/12/securing-rubygems-with-tuf-part-1.html"
 rel="Rubygems logo"><img src="/assets/images/rubygems_logo.png"
 width="200"></a>
-(Rubygems)
 
 <a
 href="https://www.well-typed.com/blog/2015/04/improving-hackage-security/"
 rel="Haskell Industrial Group logo"><img src="/assets/images/haskell_logo.png"
 width="200"></a>
-(Haskell Industrial Group)
 
 <a
 href="https://opam.ocaml.org/blog/Signing-the-opam-repository/" rel="OPAM
-logo"><img src="/assets/images/opam_logo.png" width="200"></a> (OCaml's OPAM)
+logo"><img src="/assets/images/opam_logo.png" width="200"></a>
 
 ### Others
 [Docker registry bindings](https://github.com/davedoesdev/dtuf)
