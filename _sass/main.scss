@@ -1,9 +1,7 @@
 
 // Background colors
-$purple: #5C2DF4;
-$purple-dark: #4020A9;
-//$green: #295862;
-//$green-dark: #1e1b26;
+$green: #295862;
+$green-dark: #1e1b26;
 $blue: #86ccd6;
 
 $content-max-width: 800px;
@@ -25,7 +23,7 @@ table, td, img  {
   border: none;
 }
 body {
-  background: $purple;
+  background: $green;
 }
 .inner {
   max-width: $content-max-width;
@@ -33,12 +31,12 @@ body {
 
 // Header styles
 #header_wrap {
-  background: $purple;
-  background: -moz-linear-gradient(top, $purple-dark, $purple, $purple);
-  background: -webkit-linear-gradient(top, $purple-dark, $purple, $purple);
-  background: -ms-linear-gradient(top, $purple-dark, $purple, $purple);
-  background: -o-linear-gradient(top, $purple-dark, $purple, $purple);
-  background: linear-gradient(top, $purple-dark, $purple, $purple);
+  background: $green;
+  background: -moz-linear-gradient(top, $green-dark, $green, $green);
+  background: -webkit-linear-gradient(top, $green-dark, $green, $green);
+  background: -ms-linear-gradient(top, $green-dark, $green, $green);
+  background: -o-linear-gradient(top, $green-dark, $green, $green);
+  background: linear-gradient(top, $green-dark, $green, $green);
   .inner {
     padding: 20px 10px 0px 10px;
     a:hover, a:focus {
@@ -79,7 +77,7 @@ body {
 }
 
 #footer_wrap {
-  background: $purple;
+  background: $green;
   font-size: 0.8em;
 }
 
