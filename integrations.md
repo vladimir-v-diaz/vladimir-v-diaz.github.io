@@ -49,7 +49,7 @@ width="200"></a>
 
 <a
 href="https://opam.ocaml.org/blog/Signing-the-opam-repository/" rel="OPAM
-logo"><img src="/assets/images/OPAM_logo.png" width="200"></a> (OCaml's OPAM)
+logo"><img src="/assets/images/opam_logo.png" width="200"></a> (OCaml's OPAM)
 
 ### Others
 [Docker registry bindings](https://github.com/davedoesdev/dtuf)
