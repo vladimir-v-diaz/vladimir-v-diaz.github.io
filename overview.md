@@ -119,4 +119,4 @@ reports back that there are updates available, your software update system can
 then ask TUF to download these files. TUF downloads them and checks them
 against the TUF metadata that it also downloads from the repository. If the
 downloaded target files are trustworthy, TUF hands them over to your software
-update system. See [Metadata](/metadata.html) for more information and examples.
+update system. See [metadata](/metadata.html) for more information and examples.
