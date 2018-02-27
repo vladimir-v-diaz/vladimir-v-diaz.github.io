@@ -15,11 +15,11 @@ href="https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-upt
 rel="ATS logo"><img src="/assets/images/ats_logo.png" width="200"></a>
 
 <a
-href="https://leap.se/en/2014/darkest-night"
-rel="LEAP logo"><img src="/assets/images/leap_logo.png"
-width="200"></a> <a
 href="https://github.com/theupdateframework/notary"
 rel="Notary logo"><img src="/assets/images/notary_logo.png"
+width="200"></a> <a
+href="https://leap.se/en/2014/darkest-night"
+rel="LEAP logo"><img src="/assets/images/leap_logo.png"
 width="200"></a> <a
 href="https://www.vmware.com/"
 rel="VMware logo"><img src="/assets/images/vmware_logo.png"
@@ -27,11 +27,11 @@ width="200"></a> <a
 href="https://quay.io/"
 rel="Quay logo"><img src="/assets/images/quay_logo.png"
 width="200"></a> <a
-href="https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/"
-rel="Cloudfare logo"><img src="/assets/images/cloudfare_logo.png"
-width="200"></a> <a
 href="https://www.digitalocean.com/"
 rel="DigitalOcean logo"><img src="/assets/images/digitalocean_logo.png"
+width="200"></a> <a
+href="https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/"
+rel="Cloudfare logo"><img src="/assets/images/cloudfare_logo.png"
 width="200"></a> <a
 href="https://github.com/kolide/updater"
 rel="Kolide logo"><img src="/assets/images/kolide_logo.png"
