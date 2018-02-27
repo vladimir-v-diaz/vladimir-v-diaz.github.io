@@ -5,7 +5,7 @@ css_id: reporting
 
 ### Reporting issues
 
-Security issues can be reported by emailing justincappos@gmail.com.
+Security issues can be reported by emailing jcappos@nyu.edu.
 
 At a minimum, the report must contain the following:
 
