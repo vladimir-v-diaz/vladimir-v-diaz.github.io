@@ -38,6 +38,9 @@
     - text: Reporting issues
       url: /reporting.html
 
+    - text: Security audits
+      url: /audits.html
+
     - text: Enhancement proposals
       url: /taps.html
 
