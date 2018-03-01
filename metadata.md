@@ -5,21 +5,21 @@ css_id: metadata
 
 # Roles and Metadata
 
-TUF uses metadata to create verifiable records about the state
-of a repository or application at a specified time and, as such, clients can use
+TUF uses roles to define the set of actions a party can perform. The concept of
+roles allows TUF to only trust information provided by the correctly
+designated party. The root role indicates which roles can sign for which projects.
+
+The roles sign metadata, which TUF uses to create verifiable records about the state
+of a repository or application at a specified time. As such, clients can use
 it to make decisions on which files to update. Different metadata files provide
 different information, and will be signed by different roles.
 
-Roles define the set of actions a party can perform.The concept of roles allows
-TUF to only trust information provided by the correctly
-delegated party. The root role indicates which roles can sign for which projects.
-
-The signed metadata files always include the time they were created and their
-expiration dates. This ensures that outdated metadata will be detected and that
+The signed metadata files always include an expiration date. This ensures
+that outdated metadata will be detected and that
 clients can refuse to accept metadata older than that which they've already seen.
 
 All TUF metadata uses a subset of the JSON object format. When calculating the
-digest of an object, we use the [Canonical JSON](http://wiki.laptop.org/go/Canonical_JSON) format. Implementation-level detail about the metadata can be found in the [spec](docs/tuf-spec.txt).
+digest of an object, we use the [Canonical JSON](http://wiki.laptop.org/go/Canonical_JSON) format. Implementation-level detail about the metadata can be found in the [spec](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md).
 
 There are four required top-level roles, each with their own metadata file.
 
@@ -48,7 +48,7 @@ See [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/t
 
 Signed by: Targets role.
 
-Target files are the actual files that client wants to download, such as
+Target files are the actual files that clients want to download, such as
 the software updates they are trying to obtain. The targets.json metadata
 file lists hashes and sizes of target files.
 
@@ -57,8 +57,7 @@ or specifies that another role is trusted for some or all of the target files
 available from the repository. When delegated roles are specified, it is done
 so in a way similar to how the Root role specifies the top-level roles: by giving
 the trusted keys and signature threshold for each role. Additionally, one or more
-patterns are specified to indicate the target file paths for which clients
-should trust each delegated role.
+[glob patterns](https://en.wikipedia.org/wiki/Glob_(programming)) are specified to indicate the target file paths for which clients should trust each delegated role.
 
 See [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/targets.json) of Targets metadata.
 
@@ -92,7 +91,7 @@ of delegated Targets metadata and [example](https://raw.githubusercontent.com/th
 
 Signed by: Snapshot role.
 
-The snapshot.json metadata file lists hashes and sizes of all metadata files
+The snapshot.json metadata file lists version numbers of all metadata files
 other than timestamp.json. This file ensures that clients will see a consistent
 view of all files on the repository. That is, metadata files (and thus target
 files) that existed on the repository at different times cannot be combined
