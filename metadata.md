@@ -105,19 +105,20 @@ Signed by: Timestamp role.
 
 The timestamp.json metadata file lists the hashes and size of the snapshot.json file.
 This is the first and potentially only file that needs to be downloaded when
-clients search for updates. It is frequently resigned, and
+clients search for updates. It is frequently re-signed, and
 has a short expiration date, thus allowing clients to quickly detect if they are
 being prevented from obtaining the most recent metadata. An online key is
-generally used to automatically resign this file at regular intervals.
+generally used to automatically re-sign this file at regular intervals.
 
-There are two primary reasons why the timestamp.json file doesn't contain all of
-the information that the snapshot.json file does.
+There are a few reasons why the timestamp.json and snapshot.json files are not
+combined:
 
 * The timestamp.json file is downloaded very frequently and so should be kept as
 small as possible, especially considering that the snapshot.json file grows
 proportionally with the number of delegated target roles.
 * As the Timestamp role's key is an online key and thus at high risk, separate
-keys should be used for signing the snapshot.json metadata file so that the
+keys should be used for signing the snapshot.json file so that the
 Snapshot role's keys can be kept offline, and thus more secure.
+* Timestamp.json may be given to mirrors.
 
 See [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/timestamp.json) of Timestamp metadata.
